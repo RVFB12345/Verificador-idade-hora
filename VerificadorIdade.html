@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="estilo2.css" type="text/css" media="all" />
+  </head>
+  <body>
+    <header>
+      <div>
+         <h1>Verificador de idade</h1>
+      </div>
+    </header>
+    <section>
+      <div>
+        <p>Ano de Nascimento:<input type="number" name="txtano" id="txtano" min="0" />
+        </p>
+        <p>Sexo: 
+        <input type="radio" name="radsex" id="masc" checked />
+        <label for="masc">Masculino</label>
+        <input type="radio" name="radsex" id="fem" />
+        <label for="fem">Feminino</label>
+        </p>
+        <p>
+          <input type="button" value="Verificar" onclick="verificar()" />
+        </p>
+      </div>
+      <div id="res">
+        <img  id="imagem" width="250px"/>
+      </div>
+    </section> <br /><br />
+    <section>
+      <div clatxt"txt">
+        <p class="txt1">Para retornar à página principal, clique no botão abaixo:</p> 
+      </div>
+      <div class="button">
+       <a href="Index.html"> <button type="button" class="botao">Página Inicial</button> </a> <br />
+      </div>
+      <div class="txt">
+        <p class="txt1">Para olhar o horário em tempo real, clique no botão abaixo:</p>
+      </div>
+      <div class="button">
+       <a href="Horadodia.html"> <button type="button" class="botao">Horário</button> </a> 
+      </div>
+    </section>
+    <footer>
+      <p>©Ryan Victor Ferreira Brito</p>
+    </footer>
+    <script src="script2.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
